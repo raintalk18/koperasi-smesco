@@ -1,1 +1,27 @@
-{"name": "Koperasi Smesco Nusantara", "short_name": "Smesco", "start_url": ".", "display": "standalone", "background_color": "#ffffff", "theme_color": "#4CAF50", "icons": [{"src": "icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"}]}
+{
+  "name": "Aplikasi Koperasi SMESCO Nusantara",
+  "short_name": "SMESCO",
+  "start_url": ".",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#006400",
+  "description": "Aplikasi koperasi simpan pinjam dan serba usaha untuk anggota & admin",
+  "id": "/koperasi-smesco",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "/logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
